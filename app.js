@@ -8,6 +8,7 @@ var index = require('./routes/index');
 var about = require('./routes/about');
 
 var app = express();
+app.locals.videodate = require('./videodata.json');
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));

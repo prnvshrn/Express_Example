@@ -15,5 +15,12 @@
         <li>Testing + i</li>
       <% } %>
     </ul>
+
+  <h3><%= videodate.categoryName %></h3>
+  <ul>
+    <% videodate.categories.forEach(function(item){%>
+    <li><%= item.categoryDescription %></li>
+    <% }); %>
+  </ul>
   </body>
 </html>
