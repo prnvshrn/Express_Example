@@ -1,7 +1,7 @@
 # Express_Example
 We can use EJS or Jade in Express apps. I have used EJS.
 ## Table of Content
-1. [General EJS syntax] (#General EJS syntax)
+1. ##[General EJS syntax] (#General EJS syntax)
 ## General EJS syntax
 For variables use <%= title %> and for using javascript <% %>
 ## Including another file
